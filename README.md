@@ -71,40 +71,45 @@ This project aims to bridge the gap between **student potential** and **career g
 ```bash
 git clone https://github.com/your-username/careercompass.git
 cd careercompass
+```
 
-🔹 Backend (Node + Express + MongoDB)
+### 🔹 Backend (Node + Express + MongoDB)  
+```bash
 cd backend
 npm install
 npm start
+```
 
-🔹 Frontend (React)
+### 🔹 Frontend (React)  
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-🔹 Machine Learning Service (Python)
+### 🔹 Machine Learning Service (Python)  
+```bash
 cd ml-model
 pip install -r requirements.txt
 python app.py
+```
 
-📈 Results
+---
 
-Random Forest and GBT models achieved strong predictive accuracy
+## 📈 Results  
+- **Random Forest** and **GBT** models achieved strong predictive accuracy  
+- Career outcomes can be visualized using charts & trends  
+- End-to-end **MERN integration** makes the system accessible as a web app  
 
-Career outcomes can be visualized using charts & trends
+---
 
-End-to-end MERN integration makes the system accessible as a web app
+## 🔮 Future Enhancements  
+- Deploy using **Docker & Kubernetes** for scalability  
+- Add **resume parsing with NLP** for personalized predictions  
+- Build a **recommendation system** for relevant skill-building courses  
+- Extend to **mobile app version** (React Native / Flutter)  
 
-🔮 Future Enhancements
+---
 
-Deploy using Docker & Kubernetes for scalability
-
-Add resume parsing with NLP for personalized predictions
-
-Build a recommendation system for relevant skill-building courses
-
-Extend to mobile app version (React Native / Flutter)
-
-👨‍💻 Author
-
-Developed by Yallappa Jogi – Passionate about Backend Systems, Machine Learning, and Career Guidance Applications.
+## 👨‍💻 Author  
+Developed by **[Your Name]** – Passionate about **Backend Systems, Machine Learning, and Career Guidance Applications**.  
