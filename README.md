@@ -1,7 +1,7 @@
-CareerCompass!🧭
+CareerCompass 🧭
 📌 Overview
 
-Navigating Career Path is a Machine Learning project designed to help students explore and predict suitable career paths based on their academic performance, course selection, and extracurricular activities.
+CareerCompass is a Machine Learning + MERN project designed to help students explore and predict suitable career paths based on their academic performance, course selection, and extracurricular activities.
 
 The system uses predictive analytics with Random Forest and Gradient Boosted Trees (GBT) models to analyze input data and suggest the most relevant career opportunities.
 
@@ -19,14 +19,16 @@ This project aims to bridge the gap between student potential and career guidanc
 
 ✅ Visualization of career trends
 
+✅ MERN stack integration for a web-based career guidance system
+
 ✅ Scalable and extendable to real-world datasets
 
-
 🛠️ Tech Stack
+🔹 Backend (ML & API)
 
-Programming Language: Python
+Python → ML models
 
-Libraries & Tools:
+Libraries:
 
 pandas, numpy → Data preprocessing & feature engineering
 
@@ -44,10 +46,21 @@ Random Forest
 
 Gradient Boosted Trees (GBT)
 
+🔹 Full Stack (Web Application)
+
+MongoDB → Database
+
+Express.js → Backend framework
+
+React.js → Frontend (UI for predictions & visualization)
+
+Node.js → Server-side runtime
+
+Axios → API calls between frontend & ML backend
 
 📊 Dataset
 
-Custom/preprocessed dataset with features like:
+Features used:
 
 Academic performance (grades, scores)
 
@@ -59,7 +72,7 @@ Skills & interests
 
 Target label: Predicted Career Path
 
-(Note: Dataset can be extended with larger institutional data.)
+(Dataset can be extended with larger institutional/real-world data.)
 
 ⚙️ How It Works
 
@@ -71,5 +84,48 @@ Model Training – Train Random Forest & GBT classifiers
 
 Model Evaluation – Compare results with Accuracy, Precision, Recall, F1-Score
 
-Career Prediction – Suggests the most suitable career path
+Career Prediction – Suggest the most suitable career path
 
+MERN Integration – Display predictions on a React.js frontend, powered by a Node.js + Express API connected to the ML backend
+
+🚀 Installation & Usage
+🔹 Clone the Repository
+git clone https://github.com/your-username/careercompass.git
+cd careercompass
+
+🔹 Backend (Node + Express + MongoDB)
+cd backend
+npm install
+npm start
+
+🔹 Frontend (React)
+cd frontend
+npm install
+npm run dev
+
+🔹 Machine Learning Service (Python)
+cd ml-model
+pip install -r requirements.txt
+python app.py
+
+📈 Results
+
+Random Forest and GBT models achieved strong predictive accuracy
+
+Career outcomes can be visualized using charts & trends
+
+End-to-end MERN integration makes the system accessible as a web app
+
+🔮 Future Enhancements
+
+Deploy using Docker & Kubernetes for scalability
+
+Add resume parsing with NLP for personalized predictions
+
+Build a recommendation system for relevant skill-building courses
+
+Extend to mobile app version (React Native / Flutter)
+
+👨‍💻 Author
+
+Developed by [Your Name] – Passionate about Backend Systems, Machine Learning, and Career Guidance Applications.
