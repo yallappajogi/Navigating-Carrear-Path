@@ -21,3 +21,55 @@ This project aims to bridge the gap between student potential and career guidanc
 
 ✅ Scalable and extendable to real-world datasets
 
+
+🛠️ Tech Stack
+
+Programming Language: Python
+
+Libraries & Tools:
+
+pandas, numpy → Data preprocessing & feature engineering
+
+scikit-learn → ML model training & evaluation
+
+matplotlib, seaborn → Data visualization
+
+Big Data Tools:
+
+Apache Hadoop & Spark (for handling large datasets)
+
+Models Used:
+
+Random Forest
+
+Gradient Boosted Trees (GBT)
+
+
+📊 Dataset
+
+Custom/preprocessed dataset with features like:
+
+Academic performance (grades, scores)
+
+Course selection
+
+Extracurricular activities
+
+Skills & interests
+
+Target label: Predicted Career Path
+
+(Note: Dataset can be extended with larger institutional data.)
+
+⚙️ How It Works
+
+Data Collection & Cleaning – Collect student performance & activity data
+
+Feature Engineering – Extract relevant features for career prediction
+
+Model Training – Train Random Forest & GBT classifiers
+
+Model Evaluation – Compare results with Accuracy, Precision, Recall, F1-Score
+
+Career Prediction – Suggests the most suitable career path
+
