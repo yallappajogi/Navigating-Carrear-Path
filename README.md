@@ -112,4 +112,4 @@ python app.py
 ---
 
 ## 👨‍💻 Author  
-Developed by **[Your Name]** – Passionate about **Backend Systems, Machine Learning, and Career Guidance Applications**.  
+Developed by **[Yallappa Jogi]** – Passionate about **Backend Systems, Machine Learning, and Career Guidance Applications**.  
