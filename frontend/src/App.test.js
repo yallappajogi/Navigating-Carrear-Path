@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the prediction interface', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getByText(/career outcome prediction/i)).toBeInTheDocument();
+  expect(screen.getByText(/upload a csv of grades/i)).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /upload csv file/i })).toBeInTheDocument();
 });
