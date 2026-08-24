@@ -609,16 +609,16 @@ const App = () => {
           Career outcome model · predictions are estimates, not guarantees
         </p>
         <div style={styles.footerLinks}>
-          <a href="#" style={styles.footerLink}>
-            Documentation
-          </a>
-          <a href="#" style={styles.footerLink}>
-            Data format
-          </a>
-          <a href="#" style={styles.footerLink}>
-            Support
-          </a>
-        </div>
+  <button type="button" style={styles.footerLink}>
+    Documentation
+  </button>
+  <button type="button" style={styles.footerLink}>
+    Data format
+  </button>
+  <button type="button" style={styles.footerLink}>
+    Support
+  </button>
+</div>
       </div>
     </div>
   );
